@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="Fevra"
+run/main_scene="uid://xuhg2x2ph7jy"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
 [physics]
