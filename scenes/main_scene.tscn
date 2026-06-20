@@ -1,11 +1,14 @@
 [gd_scene format=3 uid="uid://xuhg2x2ph7jy"]
 
+[ext_resource type="Script" uid="uid://ct0kkfkmjce6x" path="res://scripts/main_scene.gd" id="1_pw63i"]
 [ext_resource type="Shader" uid="uid://5sy7seoowtbg" path="res://shaders/back_ground.gdshader" id="1_w2twt"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pw63i"]
 shader = ExtResource("1_w2twt")
+shader_parameter/bg_color = Color(0, 0, 0.08627451, 1)
 
 [node name="main" type="Node2D" unique_id=449193209]
+script = ExtResource("1_pw63i")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=269128633]
 material = SubResource("ShaderMaterial_pw63i")
