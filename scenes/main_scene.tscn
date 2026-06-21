@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ct0kkfkmjce6x" path="res://scripts/main_scene.gd" id="1_pw63i"]
 [ext_resource type="Shader" uid="uid://5sy7seoowtbg" path="res://shaders/back_ground.gdshader" id="1_w2twt"]
+[ext_resource type="PackedScene" uid="uid://sjjcu12t6u6x" path="res://scenes/array.tscn" id="3_7ykc4"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_pw63i"]
 shader = ExtResource("1_w2twt")
@@ -25,3 +26,5 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1926230588]
+
+[node name="Array" parent="." unique_id=908911143 instance=ExtResource("3_7ykc4")]
